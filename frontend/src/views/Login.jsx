@@ -74,7 +74,7 @@ export default function Login() {
                 <div>
                     <button
                         type="submit"
-                        className="flex w-full justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                        className="flex w-full justify-center rounded-md border border-transparent bg-emerald-600 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
                     >
                         Sign in
                     </button>
@@ -84,7 +84,7 @@ export default function Login() {
             <div className="mt-6 text-center">
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                     Don't have an account?{' '}
-                    <Link to="/register" className="font-medium text-indigo-600 hover:text-indigo-500 dark:text-indigo-400">
+                    <Link to="/register" className="font-medium text-emerald-600 hover:text-emerald-500 dark:text-emerald-400">
                         Sign up
                     </Link>
                 </p>

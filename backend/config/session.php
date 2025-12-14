@@ -168,7 +168,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE', false), // Force false default for local dev
+    'secure' => false, // Force false default for local dev
 
     /*
     |--------------------------------------------------------------------------
